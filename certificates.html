@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="certificates.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Certifications</title>
+    </head>
+    <body>
+        
+        <!--------------------------------------------Navigation-------------------------------------------->
+            
+        <section class="Main">
+            <div class="titlebar">
+                <nav>
+                    <a href="index.html" class="logo">KG</a>
+                    <div class="nav_links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="website.html">Want a website?</a></li>
+                            <li><a href="aboutme.html">About Me!</a></li>
+                            <li><a href="feedback.html">Feedback?</a></li>
+                        </ul>
+                    </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            </div>
+
+            <!--------------------------------------------Header-------------------------------------------->    
+
+            <div class="header">
+                <div class="text">
+                    <div class="heading1"><h1>Kushal</h1></div><br>
+                    <h3><a href="index.html">Home</a> > <a href="aboutme.html"><span class="text2">About Me</span></a> > <a href="certificates.html">Certifications</a></h3>
+                </div>
+            </div>
+
+            <!--------------------------------------------Body---------------------------------------------->
+            
+            <div class="glass">
+                <div class="body"><br>
+                    <div class="platform">
+                        <div id="picturebox" >
+                            <span class="container">
+                                <img class="img-responsive" src="img_Google.JPG" width="250px" height="200px">
+                                <div class="middle">
+                                    <div class="cerfname"><a href="img_Google.JPG" target="_blank">View</a></div>
+                                </div>
+                            </span>
+                            <span class="container">
+                                <img class="img-responsive" src="img_html.jpg" width="250px" height="200px">
+                                <div class="middle">
+                                    <div class="cerfname"><a href="img_html.jpg" target="_blank">View</a></div>
+                                </div>
+                            </span>
+                            <span class="container">
+                                <img class="img-responsive" src="img_Python(1).jpg" width="250px" height="200px">
+                                <div class="middle">
+                                    <div class="cerfname"><a href="img_Python(1).jpg" target="_blank">View</a></div>
+                                </div>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div><br><br>
+        </section>
+
+        <!--------------------------------------------Footer-------------------------------------------->
+
+        <section class="footer">
+            <h1>Contact Me:</h1>
+            <div class="social_links">
+                <a href="social_fb.html"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/kushal_gupta_03"><i class="fab fa-instagram"></i></a>
+                <a href="social_twitter.html"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/kushal-gupta-a24625222"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </section>
+
+        <!--------------------------------------------Java Script--------------------------------------------->
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

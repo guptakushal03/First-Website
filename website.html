@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="website.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Website</title>
+        </head>
+    <body>
+
+        <!--------------------------------------------Navigation-------------------------------------------->
+        <section class="Main">
+            <div class="titlebar">
+                <nav>
+                    <a href="index.html" class="logo">KG</a>
+                    <div class="nav_links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="website.html">Want a website?</a></li>
+                            <li><a href="aboutme.html">About Me!</a></li>
+                            <li><a href="feedback.html">Feedback?</a></li>
+                        </ul>
+                    </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+            </div>
+
+            <!--------------------------------------------Header-------------------------------------------->
+            
+            <div class="header">
+                <div class="text">
+                    <div class="heading1"><h1>Kushal</h1></div><br>
+                    <h3><a href="index.html">Home</a> > <a href="website.html">Website</a></h3>
+                </div>
+            </div>
+
+            <!--------------------------------------------Body---------------------------------------------->
+
+            <div class="body"><br>
+                <div class="glass">
+                    <div class="maintext">
+                        <div class="textbox1">
+                            <h1 class="h1">Why is having a business website useful, even for small businesses.?</h1><br>
+                            <p>
+                                <ol class="list1">
+                                    <li>&nbsp;&nbsp;&nbsp;Acts as an anchor for your marketing.</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Promotes and sells your products/services.</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Connects with new customers (and keeps existing customers).</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Helps local businesses compete with large brands.</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Builds credibility.</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Allows you to control your online destiny.</li>
+                                    <li>&nbsp;&nbsp;&nbsp;Is simple and affordable to set up.</li>
+                                </ol>
+                            </p>
+                        </div><br><br>
+
+                        <div class="textbox2">
+                            <h1 class="h1">How to get one?</h1>
+                            <h3 class="h3">Now once you have decided to get a website, the next question is how to get one.?</h3>
+                            <p class="p">
+                                Well, here's the answer:<br>
+                                A website can be created in two ways in general. The first way is to create one by ourself. You might be thinking on how can i build one with no programming knowledge at all.!?<br>
+                                If you are, then relax, there are many website builders available on internet which creates a website simply by drag and drop method.<br>
+                                And the other way is to hire a free lancer who can make you one with much affordable price.<br>
+                            </p>
+                        </div><br><br>
+
+                        <div class="textbox3">
+                            <h1 class="h1">When should you hire a web designer?</h1>
+                            <p class="p">
+                                <h class="h31">
+                                    Ohkay, so the next question is should you hire a web designer or just do it yourself?<br>
+                                    Here are a few points mentioned which might help you get your answer.
+                                </h>    
+                                <div class="hiring">
+                                    <h class="h31"><br>You should hire a web designer if…</h>
+                                    <ul class="list2">
+                                        <li>You have a big enough budget.</li>
+                                        <li>You want all of the technical stuff taken care of for you.</li>
+                                        <li>You’re willing to work with someone else on your site’s branding.</li>
+                                    </ul>
+                                    <h class="h31"><br>You should use a website builder if…</h>
+                                    <ul class="list2">
+                                        <li>You want to save money.</li>
+                                        <li>You don’t mind using drag-and-drop design tools.</li>
+                                        <li>You want to be directly involved in your website’s creation.</li>
+                                    </ul>
+                                </div>
+                            </p>
+                        </div><br><br>
+
+                        <div class="textbox4">
+                            <h1 class="h1">Decided to hire a web designer?</h1>
+                            <p class="p">
+                                Once decided, you can go and get a web designer suitable for your form the internet, or maybe you can even hire <a href="aboutme.html" target="_blank">me!</a><br>
+                                The best example of a website created by me is the one you are reading this info on!<br>
+                                Want more!? You can go chech my projects <a href="projects.html" target="_blank">here</a>.
+                            </p>
+                        </div>
+                    </div>
+                </div><br><br>
+            </div>
+        </section>
+        
+        <!--------------------------------------------Footer-------------------------------------------->
+
+        <section class="footer">
+            <h1>Contact Me:</h1>
+            <div class="social_links">
+                <a href="social_fb.html"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://instagram.com/kushal_gupta_03"><i class="fab fa-instagram"></i></a>
+                <a href="social_twitter.html"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/kushal-gupta-a24625222"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </section>
+
+        <!--------------------------------------------Java Script--------------------------------------------->
+        
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

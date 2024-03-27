@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@350&display=swap">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.ripples/0.5.3/jquery.ripples.min.js"></script>
+        <title>KG</title>
+    </head>
+    <body>
+
+        <!--------------------------------------------Navigation-------------------------------------------->
+            <section class="header">
+                <nav>
+                    <a href="index.html" class="logo">KG</a>
+                    <div class="nav_links" id="navLinks">
+                        <i class="fa fa-times" onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="website.html">Want a website?</a></li>
+                            <li><a href="aboutme.html">About Me!</a></li>
+                            <li><a href="feedback.html">Feedback?</a></li>
+                        </ul>
+                    </div>
+                        <i class="fa fa-bars" onclick="showMenu()"></i>
+                </nav>
+
+                <!--------------------------------------------Body-------------------------------------------->        
+
+                <div class="body">
+                    <a href="aboutme.html"><img src="img_profile.png" width="200px" style="border-radius : 100%;"></a>
+                    <br><br><br>
+                    <h1>Welcome to my first Webpage.</h1>
+                    <p>My name is Kushal Gupta. This is my first webpage and it is still underconstruction.</p>
+                </div>
+            </section>
+
+        <!--------------------------------------------Footer-------------------------------------------->
+
+            <section class="footer">
+                <h1>Contact Me:</h1>
+                <div class="social_links">
+                    <a href="social_fb.html"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com/kushal_gupta_03"><i class="fab fa-instagram"></i></a>
+                    <a href="social_twitter.html"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/kushal-gupta-a24625222"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </section>
+
+        <!--------------------------------------------Java Script--------------------------------------------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+        <script type="text/javascript">
+            $(".header").ripples({
+                rsolution: 450,
+                dropRadius: 30,
+                perturbance: 0.04,
+            });
+        </script>
+    </body>
+</html>
